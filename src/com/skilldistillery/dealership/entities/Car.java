@@ -25,9 +25,8 @@ public class Car {
 	
 
 	public void displayCar() { // FIX ME: Question C.6
-		// String carData = getCarData();
-		Car carData = new Car();
-		System.out.println(carData);
+		System.out.println(this.toString());
+		
 	}
 
 	public String getMake() {
