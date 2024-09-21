@@ -22,9 +22,8 @@ public class Car {
 				.append(", purchasePrice=").append(purchasePrice).append("]");
 		return builder.toString();
 	}
-	
 
-	public void displayCar() { // FIX ME: Question C.6
+	public void displayCar() {
 		System.out.println(this.toString());
 		
 	}
