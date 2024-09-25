@@ -1,7 +1,7 @@
 # CarDealershipApp
 
 ### Description
-Command line based application that ....
+Command line based application that model a car dealership. 
 
 ### Technologies used
 Java

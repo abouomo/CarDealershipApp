@@ -6,6 +6,7 @@ public class Car {
 	private String color;
 	private double purchasePrice;
 	
+	
 	public Car(String make, String model, String color, double purchasePrice) {
 		this.make = make;
 		this.model = model;

@@ -3,10 +3,15 @@ package com.skilldistillery.dealership.app;
 import com.skilldistillery.dealership.entities.Car;
 import com.skilldistillery.dealership.entities.CarLot;
 
-public class CarLotTester {
-
-	public static void main(String[] args) {
+public class CarLotApp {
+	
+	public static void main(String [] args) {
+		CarLotApp app = new CarLotApp();
 		
+		app.run();
+	}
+	
+	public void run() {
 		CarLot carLot = new CarLot(20);
 		
 		Car bernCar = new Car("Toyota", "4Runner", "Blue", 47995);
@@ -37,9 +42,7 @@ public class CarLotTester {
 		Car notFound = carLot.purchaseCar("Honda", "Civic");
 		System.out.println("Sorry! We don't have the requested car\n" + notFound);
 		carLot.getListOfCarsInInventory();
-		
-		
-
 	}
+	
 
 }
